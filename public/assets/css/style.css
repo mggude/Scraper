@@ -1,0 +1,40 @@
+body {
+  margin-top: 50px;
+  font-family: 'News Cycle', sans-serif;
+  color: #353a3f;
+  background-image: url("../images/what-the-hex.png")
+}
+
+.jumbotron {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/newspaper.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: solid #C0C0C0 2px;
+    border-bottom: solid #C0C0C0 2px;
+    /* position: relative; */
+  }
+
+  .hero-text {
+    color: white;
+  }
+
+  .btn {
+    margin: 0 8px 10px 0;
+  }
+
+  .card-body:first-child {
+    margin-top: 50px;
+ }
+
+  footer {
+    padding: 10px 10px 25px 10px;
+    border-top: solid #C0C0C0 2px;
+    font-size: 12px;
+    color: #353a3f;
+    text-align: center;
+    background: white;
+    height: 30px;
+  }

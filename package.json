@@ -1,26 +1,23 @@
 {
-  "name": "scraper",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "A web app that lets users view and leave comments on the latest news, scraped by Mongoose and Cheerio.",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mggude/Scraper.git"
-  },
-  "author": "Grace Gude",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mggude/Scraper/issues"
-  },
-  "homepage": "https://github.com/mggude/Scraper#readme",
   "dependencies": {
     "axios": "^0.18.0",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^5.4.4"
+    "handlebars": "^4.0.12",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
   }
 }
